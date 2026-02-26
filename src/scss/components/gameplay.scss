@@ -1,0 +1,118 @@
+.gameplay-section {
+  @include media(desktop) {
+  }
+}
+
+.gameplay-bg-wrapper {
+  padding-top: 80px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    padding-top: 85px;
+    padding-bottom: 60px;
+    max-width: 1440px;
+    background-image: url(../img/gameplay/gameplay-bg-desk.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: auto;
+    position: relative;
+  }
+}
+
+.gameplay-container {
+  @include media(desktop) {
+  }
+}
+
+.gameplay-title {
+  @include media(desktop) {
+  }
+}
+
+.gameplay-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+
+  @include media(desktop) {
+    gap: 0;
+    position: relative;
+    display: block;
+  }
+}
+
+.gameplay-top-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+
+  @include media(desktop) {
+    flex-direction: row;
+    justify-content: center;
+    gap: 232px;
+    margin-bottom: 72px;
+  }
+}
+
+.gameplay-text-wrapper {
+  background: #1e1e1e;
+  border-radius: 40px;
+  padding: 16px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @include media(desktop) {
+    padding: 16px 18px;
+    max-width: max-content;
+  }
+}
+
+.gameplay-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #e9e9e9;
+
+  @include media(desktop) {
+  }
+}
+
+.gameplay-middle-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+
+  @include media(desktop) {
+    flex-direction: row;
+    justify-content: start;
+    gap: 430px;
+    margin-bottom: 112px;
+  }
+}
+
+.gameplay-bottom-text-wrapper {
+  @include media(desktop) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.gameplay-img {
+  display: none;
+
+  @include media(desktop) {
+    display: block;
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
