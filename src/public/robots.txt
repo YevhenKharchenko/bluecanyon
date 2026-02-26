@@ -3,4 +3,4 @@ Disallow: /admin/
 Disallow: /private/
 Allow: /
 
-Sitemap: https://midway.space/sitemap.xml
+Sitemap: https://bluecanyon.site/sitemap.xml

@@ -1,0 +1,88 @@
+.benefits-section {
+  @include media(desktop) {
+  }
+}
+
+.benefits-bg-wrapper {
+  padding-top: 80px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    padding-top: 150px;
+    max-width: 1440px;
+    background-image:
+      url(../img/benefits/benefits-line-left.png),
+      url(../img/benefits/benefits-line-right.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position:
+      bottom 140px left,
+      bottom 140px right;
+    background-size: auto, auto;
+  }
+}
+
+.benefits-container {
+  @include media(desktop) {
+  }
+}
+
+.benefits-title {
+  @include media(desktop) {
+  }
+}
+
+.benefits-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+
+  @include media(desktop) {
+    max-width: 415px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.benefits-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+
+  @include media(desktop) {
+  }
+}
+
+.benefits-item-number {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  text-align: center;
+  background: linear-gradient(0deg, #9fe2f8 0%, #a78bfa 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  @include media(desktop) {
+  }
+}
+
+.benefits-item-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #e6e9ef;
+
+  @include media(desktop) {
+  }
+}
+
+.benefits-img {
+  @include media(desktop) {
+  }
+}

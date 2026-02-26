@@ -1,37 +1,36 @@
 <section class="section about-section" id="about">
   <div class="about-bg-wrapper">
     <div class="container about-container">
+      <h2 class="section-title about-title">About</h2>
       <div class="about-content-wrapper">
-        <div class="about-title-wrapper">
-          <h2 class="section-title about-title">About</h2>
-          <svg class="star-icon" width="59" height="59">
-            <use href="./img/sprite.svg#icon-star"></use>
-          </svg>
-        </div>
+        <picture>
+          <source
+            srcset="./img/about/about-img-mob.png"
+            media="(min-width: 1440px)"
+            width="275"
+            height="275" />
+          <source
+            srcset="./img/about/about-img-mob.png"
+            width="174"
+            height="174" />
+          <img
+            class="about-img"
+            src="./img/about/about-img-mob.png"
+            alt="Screenshot of the game"
+            width="174"
+            height="174"
+            loading="lazy"
+        /></picture>
         <p class="about-text">
-          This game isn’t about micromanaging numbers endlessly.
-          <span class="about-text-span">BrandEngine</span> is designed to feel
-          intuitive and thoughtful, focusing on cause-and-effect rather than
-          punishment. There are no instant failures — even weak decisions become
-          learning moments. We want you to experiment and try stuff out instead
-          of just obsessing over perfect numbers.
+          This game isn’t about reflexes or competition.<br />
+          <span class="about-text-span">Insight Path</span> is designed
+          as a quiet experience where players engage with puzzles that feel more
+          like reflections than challenges.<br />
+          Choices are subtle but meaningful. Sometimes progress comes from
+          moving forward — sometimes from stopping, turning back, or simply
+          paying attention to what changed. The game respects the player’s pace
+          and allows space for interpretation.
         </p>
-        <img
-          class="about-img1"
-          src="./img/about/about-img1.png"
-          alt="Screenshot of the game"
-          width="168"
-          height="165"
-          loading="lazy"
-        />
-        <img
-          class="about-img2"
-          src="./img/about/about-img2.png"
-          alt="Screenshot of the game"
-          width="117"
-          height="115"
-          loading="lazy"
-        />
       </div>
     </div>
   </div>
