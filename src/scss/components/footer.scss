@@ -1,5 +1,5 @@
 .footer {
-  background: #ff7a45;
+  background: #497bee;
   padding-top: 34px;
   padding-bottom: 34px;
 
@@ -37,14 +37,13 @@
 .footer-link {
   display: flex;
   align-items: center;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Cormorant Garamond', sans-serif;
   font-weight: 700;
   font-size: 20px;
-  line-height: 1.5;
   background: radial-gradient(
-    79.77% 79.77% at 8.61% 20.23%,
-    rgb(44, 36, 33) 0%,
-    rgb(33, 36, 42) 100%
+    50% 50% at 50% 50%,
+    rgb(13, 29, 59) 0%,
+    rgb(3, 10, 17) 100%
   );
   background-clip: text;
   -webkit-background-clip: text;
@@ -65,9 +64,9 @@
   font-size: 12px;
   line-height: 1.5;
   background: radial-gradient(
-    79.77% 79.77% at 8.61% 20.23%,
-    rgb(44, 36, 33) 0%,
-    rgb(33, 36, 42) 100%
+    50% 50% at 50% 50%,
+    rgb(13, 29, 59) 0%,
+    rgb(3, 10, 17) 100%
   );
   background-clip: text;
   -webkit-background-clip: text;

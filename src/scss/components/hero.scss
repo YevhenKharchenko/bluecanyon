@@ -4,8 +4,8 @@
 }
 
 .hero-bg-wrapper {
-  padding-top: 246px;
-  padding-bottom: 309px;
+  padding-top: 174px;
+  padding-bottom: 451px;
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
@@ -15,8 +15,8 @@
   background-size: cover;
 
   @include media(desktop) {
-    padding-top: 199px;
-    padding-bottom: 203px;
+    padding-top: 222px;
+    padding-bottom: 405px;
     max-width: 1440px;
     background-image: url(../img/hero/hero-bg-desk.jpg);
   }
@@ -29,11 +29,39 @@
 
 .hero-content-wrapper {
   @include media(desktop) {
-    max-width: max-content;
   }
 }
 
-.hero-title-img {
+.hero-main-title {
+  font-family: 'Cormorant Garamond', sans-serif;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 1;
+  text-align: center;
+  background: linear-gradient(0deg, #9fe2f8 0%, #a78bfa 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 34px;
+
   @include media(desktop) {
+    font-size: 76px;
+    margin-bottom: 48px;
+  }
+}
+
+.hero-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #e6e9ef;
+
+  @include media(desktop) {
+    font-size: 32px;
+    max-width: 846px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }

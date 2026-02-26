@@ -1,5 +1,5 @@
 .cookie-banner-section {
-  background: #ff7a45;
+  background: #497bee;
   padding: 38px 16px 74px;
   width: 100%;
   max-width: 375px;
@@ -33,9 +33,9 @@
   line-height: 1.5;
   text-align: center;
   background: radial-gradient(
-    79.77% 79.77% at 8.61% 20.23%,
-    rgb(44, 36, 33) 0%,
-    rgb(33, 36, 42) 100%
+    50% 50% at 50% 50%,
+    rgb(13, 29, 59) 0%,
+    rgb(3, 10, 17) 100%
   );
   background-clip: text;
   -webkit-background-clip: text;
@@ -66,18 +66,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: radial-gradient(
-    79.77% 79.77% at 8.61% 20.23%,
-    #2c2421 0%,
-    #21242a 100%
-  );
+  background: radial-gradient(50% 50% at 50% 50%, #0d1d3b 0%, #030a11 100%);
   border-radius: 40px;
   padding: 24px 32px;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Cormorant Garamond', sans-serif;
   font-weight: 700;
   font-size: 20px;
-  line-height: 1.5;
-  color: #ff7a45;
+  color: #497bee;
   width: 100%;
   max-width: 295px;
   transition: background 0.3s ease-in-out;
@@ -95,17 +90,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #21242a;
+  border: 1px solid #030a11;
   border-radius: 40px;
   padding: 23px 31px;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'Cormorant Garamond', sans-serif;
   font-weight: 700;
   font-size: 20px;
-  line-height: 1.5;
   background: radial-gradient(
-    79.77% 79.77% at 8.61% 20.23%,
-    rgb(44, 36, 33) 0%,
-    rgb(33, 36, 42) 100%
+    50% 50% at 50% 50%,
+    rgb(13, 29, 59) 0%,
+    rgb(3, 10, 17) 100%
   );
   background-clip: text;
   -webkit-background-clip: text;
